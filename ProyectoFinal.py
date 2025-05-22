@@ -43,6 +43,7 @@ def agregar_empleado(codigo_empleado, nombre, saldo_vacaciones, contraseña):
 # Bienvenida e inicio de sesión
 print("Bienvenido al Sistema de Gestión de Vacaciones de Vendomática")
 print("-------------------------------------------------------------")
+
 intentos = 3
 while intentos > 0:
     usuario = input("Nombre de usuario: ").lower()
